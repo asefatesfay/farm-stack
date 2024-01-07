@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "backend-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Assefa Tesfay <assefa.tesfay@nordstrom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+pymongo = "^4.6.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend-fastapi = "poetry.core.masonry.api"
